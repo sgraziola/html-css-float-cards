@@ -48,13 +48,14 @@ header{
 .targa{
     width: calc(100% / 3);
     float: left;
-    background-color: var(--flo_card);
-    box-shadow: 2px 2px 10px lightgrey;
 }
 
 .info{
-    float: left;
+    background-color: var(--flo_card);
     color: white;
+    box-shadow: 2px 2px 10px grey;
+    width: 90%;
+    float: left;
     font-family: 'ABeeZee', sans-serif;
     margin:1rem 1rem;
 }
