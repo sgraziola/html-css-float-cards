@@ -1,29 +1,47 @@
 /* Common Rules */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --flo_card: #0F0E17;
     --flo_email: #6ECBE3;
     --flo_title: #E53170;
     --flo_backg: #FFFFFE;
 }
 
-.container{
+.container {
     margin: auto;
     width: 80%;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-img{
-    max-width: 100%;
+img {
+    max-height: 100%;
+    
 }
 
+
+.col_4 {
+    float: left;
+    width: calc(100% / 3);
+    background-color: var(--flo_card);
+    color: white;
+    height: 100px;
+    weight
+}
+
+.targa {
+  /*   float: left; */
+}
+
+.email {
+    color: var(--flo_email);
+}
