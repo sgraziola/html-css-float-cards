@@ -23,24 +23,47 @@
     clear: both;
 }
 
-img {
-    max-height: 100%;
+img {;
+    float: left;
+    width: 100px;
+    max-width: 100%;
+}
+
+
+header{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     
 }
 
+.title{
+    color: var(--flo_title);
+    margin-bottom: 1.5rem;
+}
 
 .col_4 {
     float: left;
     width: calc(100% / 3);
     background-color: var(--flo_card);
     color: white;
-    height: 100px;
-    weight
+    box-shadow: 0 0 2px lightgrey;
+    margin: 1rem 1.5rem; 
+
 }
 
-.targa {
-  /*   float: left; */
+
+.targa{
+    float: left;
+    padding: 1rem;
+
 }
+
+.nome{
+    font-size: larger;
+}
+
+
 
 .email {
     color: var(--flo_email);
