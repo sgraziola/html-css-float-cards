@@ -1,0 +1,29 @@
+/* Common Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --flo_card: #0F0E17;
+    --flo_email: #6ECBE3;
+    --flo_title: #E53170;
+    --flo_backg: #FFFFFE;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+
